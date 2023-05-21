@@ -63,7 +63,7 @@ public class Voiture extends JLabel implements Runnable {
                 this.park.semaphore.acquire();
                 if(!(this.rentrer())){
 
-                    System.out.format("[%s]  : Une voiture veur entre  \n", this.nom);
+                    System.out.format("[%s]  : Une voiture veut entre  \n", this.nom);
 
                 }
                 this.park.semaphore.release();
@@ -86,7 +86,7 @@ public class Voiture extends JLabel implements Runnable {
 
     public static void main(String[] args) {
         int TailleParking=7;
-        JFrame frame = new JFrame("PARKING Bilal");
+        JFrame frame = new JFrame("PARKING BILAL");
         Parking  leParking = new Parking(TailleParking);
         frame.setContentPane(leParking);
         leParking.setLayout(null);

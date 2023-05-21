@@ -66,8 +66,8 @@ public class ImageRotation {
     }
 
     public static void main(String[] args) {
-        File fichierini = new File("C:\\Users\\BIG CHOIX\\Desktop\\JAVA\\project2dparking\\images\\v3.png");
-        File fichierout = new File("C:\\Users\\BIG CHOIX\\Desktop\\JAVA\\project2dparking\\images\\v4.png");
+        File fichierini = new File("C:\\Users\\BIG CHOIX\\Desktop\\JAVA\\project2dparking\\images\\c3.png");
+        File fichierout = new File("C:\\Users\\BIG CHOIX\\Desktop\\JAVA\\project2dparking\\images\\c4.png");
         ImageRotation.rotate90(fichierini,fichierout,ImageRotation.ROTATE_RIGHT);
 		ImageRotation.rotate180(fichierini,fichierout);
 
